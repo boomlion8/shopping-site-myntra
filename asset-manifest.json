@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/shopping-site-myntra/static/css/main.cac0e6ba.css",
+    "main.js": "/shopping-site-myntra/static/js/main.64daaec8.js",
+    "static/media/clothing5.jpg": "/shopping-site-myntra/static/media/clothing5.df5b063513f2425065c2.jpg",
+    "static/media/clothing3.jpg": "/shopping-site-myntra/static/media/clothing3.beac15abf4f750926dcd.jpg",
+    "static/media/clothing4.jpg": "/shopping-site-myntra/static/media/clothing4.0e067227a0cc781aa6ea.jpg",
+    "static/media/clothing6.jpg": "/shopping-site-myntra/static/media/clothing6.8391c4140b80eb4ff3a5.jpg",
+    "static/media/clothing1.jpg": "/shopping-site-myntra/static/media/clothing1.b21ab3290c9a38b80715.jpg",
+    "static/media/clothing2.jpg": "/shopping-site-myntra/static/media/clothing2.9e2d974061829b9d8ef0.jpg",
+    "index.html": "/shopping-site-myntra/index.html",
+    "main.cac0e6ba.css.map": "/shopping-site-myntra/static/css/main.cac0e6ba.css.map",
+    "main.64daaec8.js.map": "/shopping-site-myntra/static/js/main.64daaec8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cac0e6ba.css",
+    "static/js/main.64daaec8.js"
+  ]
+}
