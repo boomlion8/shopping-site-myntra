@@ -1,0 +1,94 @@
+.bag{
+    margin: 5% 5% 0% 10%;
+    display: flex;
+}
+
+.bag_left{
+    margin-right: 200px;
+}
+
+.bag_item{
+    padding: 10px;
+    font-weight: 500;
+display: flex;
+
+}
+.item{
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.available{
+    padding: 10px;
+    font-weight: 500;
+    border: 1px solid red;
+
+}
+
+.remove{
+    margin-top: 30px;
+    display: flex;
+justify-content: space-between;
+margin-bottom: 30px;
+}
+.button{
+    padding: 10px 10px 10px 10px;
+    font-weight: 500;
+    color:  rgb(212, 130, 130);
+    border: 1px solid rgb(212, 130, 130);
+    cursor: pointer;
+    margin-left: 47.2%;
+}
+.button:hover{
+    background-color: rgb(243, 237, 237);
+}
+
+.order{
+    background-color:  rgb(212, 130, 130);
+    font-weight: 500;
+padding-left: 30%;
+padding-right: 30%;
+padding-top: 5%;
+padding-bottom: 5%;
+border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.order:hover{
+    background-color:  rgb(218, 107, 107);
+}
+
+.bag_coupons{
+    display: flex;
+}
+
+
+.apply{
+    padding: 5px;
+    padding-top: 0;
+    border: 1px solid rgb(212, 130, 130);
+   text-transform: uppercase;
+   cursor: pointer;
+   border-radius: 3px;
+ margin-left: 30%;  
+}
+
+.apply:hover{
+      background-color:  rgb(229, 214, 214);
+}
+.log{
+    font-weight: bold;
+}
+
+
+.mrp{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    padding-top: 5px;
+}
+
+.pricedetails{
+    padding: 5px;
+}

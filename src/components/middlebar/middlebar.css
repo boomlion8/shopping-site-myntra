@@ -1,0 +1,33 @@
+.Middlebar{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+.heading{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button{
+ size: 10cm;
+}
+
+.container{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+ 
+}

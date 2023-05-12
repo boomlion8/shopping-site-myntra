@@ -1,0 +1,16 @@
+.detail{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.side{
+    margin-top: 1%;
+}
+
+.right{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 6%;
+    margin-top: 2%; 
+}

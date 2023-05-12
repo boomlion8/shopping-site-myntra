@@ -1,0 +1,33 @@
+.profile_dropdown{
+    top: 80px;
+    font-weight: 200;
+    overflow: hidden;
+    box-shadow: 3px 3px 30px rgba(71, 21, 21, 0.2);
+    margin: auto;
+    opacity: 1;
+    visibility: 0;
+    position: absolute;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+
+.dropdown_title{
+    font-weight: bold;
+}
+
+
+    .button{
+        padding: 10px 10px 10px 10px;
+        font-weight: 500;
+        color:  rgb(212, 130, 130);
+        border: 1px solid rgb(212, 130, 130);
+        cursor: pointer;
+    }
+    .button:hover{
+        background-color: rgb(243, 237, 237);
+    }
+.item:hover{
+font-weight: bold;
+}

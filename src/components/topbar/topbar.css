@@ -1,0 +1,14 @@
+.carImage{
+    width: 30vw;
+    height: 30vh;
+    margin-top: 2%;
+    padding: 10px;
+}
+.topbar{
+    /* display:grid; */
+    overflow: hidden;
+display: grid;
+grid-template-columns: auto auto auto;
+    z-index: -1;
+    opacity: 10;
+}
