@@ -16,7 +16,7 @@ function App() {
   console.log(currentUser);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/shopping-site-myntra">
       <Routes>
         <Route path="/">
           <Route exact path="/login" element={<Login />} />
