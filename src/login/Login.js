@@ -29,7 +29,6 @@ function Login() {
   };
   return (
     <div className="login">
-      <div>USER LOGIN</div>
       <div>
         <form onSubmit={handleLogin}>
           <div>
@@ -58,7 +57,7 @@ function Login() {
             to="/register"
             style={{ textDecoration: "none", color: "black" }}
           >
-            REGISTER
+            username:kunalaarse@dev.com password:kunalaarse
           </Link>
           {error && <span>Error found</span>}
         </span>
