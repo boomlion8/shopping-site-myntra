@@ -1,11 +1,13 @@
 import { signInWithEmailAndPassword } from "firebase/auth";
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useRef } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { auth } from "../firebase";
 import { AuthContext } from "../util/AuthContext";
 import "./login.css";
 
 function Login() {
+  const emailRef = useRef();
+  const passwordRef = useRef();
   const navigate = useNavigate();
   const { dispatch } = useContext(AuthContext);
 
@@ -29,39 +31,32 @@ function Login() {
   };
   return (
     <div className="login">
-      <div>
-        <form onSubmit={handleLogin}>
-          <div>
-            <img src="" alt="" />
-            <input
-              type="email"
-              placeholder="Email ID"
-              onChange={(e) => setEmail(e.target.value)}
-            ></input>
-          </div>
+      <span>Login</span>
+      <form className="loginForm" onSubmit={handleLogin}>
+        <label>Email</label>
+        <input
+          type="email"
+          placeholder="Email ID"
+          onChange={(e) => setEmail(e.target.value)}
+          ref={emailRef}
+        ></input>
 
-          <div>
-            <img src="" alt="" />
-            <input
-              type="password"
-              placeholder="Password"
-              onChange={(e) => setpassword(e.target.value)}
-            ></input>
-          </div>
+        <label>Password</label>
+        <input
+          type="password"
+          placeholder="Password"
+          onChange={(e) => setpassword(e.target.value)}
+          ref={passwordRef}
+        ></input>
 
-          <button className="button">LOGIN</button>
-        </form>
-        <span>
-          Don't Have a Account ?
-          <Link
-            to="/register"
-            style={{ textDecoration: "none", color: "black" }}
-          >
-            username:kunalaarse@dev.com password:kunalaarse
-          </Link>
-          {error && <span>Error found</span>}
-        </span>
-      </div>
+        <button className="loginButton button">LOGIN</button>
+      </form>
+      <span>
+        <Link to="/" style={{ textDecoration: "none", color: "blue" }}>
+          username:kunalaarse@firebase.dev password:kunalaarse
+        </Link>
+        {error && <span>Error found</span>}
+      </span>
     </div>
   );
 }

@@ -4,7 +4,6 @@ import Bag from "./bag/Bag";
 import Home from "./Home";
 import Itemdetail from "./Itemdetails/Itemdetail";
 import Login from "./login/Login";
-import Register from "./login/Register";
 import { AuthContext } from "./util/AuthContext";
 import "./App.css";
 function App() {
@@ -12,8 +11,6 @@ function App() {
   const RequireAuth = ({ children }) => {
     return currentUser ? children : <Navigate to="/login" />;
   };
-
-  console.log(currentUser);
 
   return (
     <BrowserRouter basename="/shopping-site-myntra">
@@ -25,16 +22,6 @@ function App() {
             element={
               <RequireAuth>
                 <Home />
-              </RequireAuth>
-            }
-          />
-
-          <Route
-            exact
-            path="/register"
-            element={
-              <RequireAuth>
-                <Register />
               </RequireAuth>
             }
           />
